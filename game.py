@@ -1,11 +1,11 @@
 from matplotlib import pyplot as plt
 import random
 
-start = int(input("어디서 시작할지 숫자로 입력"))
+start = int(input("어디서 시작할지 숫자로 입력: "))
 a = [1,2,3,4,5,6,7]
 b = [0,0,0,0,0,0,0]
 
-for _ in range(1000):
+for _ in range(1000): # 1000번 반복
     ladder = 0
     player = start - 1
     board = []
