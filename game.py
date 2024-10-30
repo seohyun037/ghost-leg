@@ -5,11 +5,11 @@ start = int(input("어디서 시작할지 숫자로 입력: "))
 
 """people: 사람 인원수
 bridge: 가로 사다리 수
-rail = 2bridge: 세로 사다리 수"""
+rail(= bridge * 2): 세로 사다리 수"""
 
 people = 7
-bridge = 15 # 가로
-rail = 20 # 세로
+bridge = 10 # 가로
+rail = bridge * 2 # 세로
 
 a = []
 b = []
